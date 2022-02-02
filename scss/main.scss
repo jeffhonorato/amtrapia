@@ -1,0 +1,37 @@
+/************ VARIÁVEIS ************/
+$cor-menu:#fff;
+$cor-section1:#2D5D93;
+$cor-section2:#74B3CE;
+$fonte-titulo: 'Teko', sans-serif;
+$fonte-subtitulo: 'Orbitron', sans-serif;
+$fonte-corpo: 'Athiti', sans-serif;
+
+/************ RESET ************/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+li, ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/************ CONTEÚDO DA PÁGINA ************/
+@import "header";
+@import "radio-header";
+@import "patrocinadores";
+@import "programacao";

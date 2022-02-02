@@ -1,0 +1,24 @@
+.patrocinio {
+    background-color: $cor-section1;
+    padding: 1rem;
+    height: 100vh;
+
+        .patrocinio__banner {
+            position: relative;
+            height: 90vh;
+            // width: 90vw;
+
+        }
+
+        .banner__img {
+            position: absolute;
+            box-shadow: 0 0 10px 0px #fff;
+            opacity: 0;
+            transition: opacity 900ms;
+        }
+
+        .selected {
+            opacity: 1;
+        }
+}
+
