@@ -1,0 +1,11 @@
+.locutores {
+    background-color: $cor-section1;
+
+        .locutores__titulo {
+            font-family: $fonte-subtitulo;
+            font-size: 2rem;
+            color: #fff;
+            text-align: center;
+            padding: 2rem 0;
+        }
+}

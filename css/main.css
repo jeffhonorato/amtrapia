@@ -258,4 +258,18 @@ a {
   font-size: 1.2rem;
 }
 
+/* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_locutores.scss */
+.locutores {
+  background-color: #2D5D93;
+}
+
+/* line 4, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_locutores.scss */
+.locutores .locutores__titulo {
+  font-family: "Orbitron", sans-serif;
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 0;
+}
+
 /*# sourceMappingURL=main.css.map */
