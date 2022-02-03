@@ -264,6 +264,20 @@ a {
 }
 
 /* line 4, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_locutores.scss */
+.locutores .swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* line 10, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_locutores.scss */
+.locutores .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 320px;
+}
+
+/* line 21, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_locutores.scss */
 .locutores .locutores__titulo {
   font-family: "Orbitron", sans-serif;
   font-size: 2rem;
@@ -272,60 +286,10 @@ a {
   padding: 2rem 0;
 }
 
-/* line 12, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_locutores.scss */
-.locutores .locutores__cards {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-}
-
-/* line 18, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_locutores.scss */
-.locutores .locutor__card {
-  width: 15rem;
-  box-shadow: 2px 1px 10px 2px #000;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  opacity: 0.5;
-}
-
-/* line 26, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_locutores.scss */
-.locutores .locutor__card:hover {
-  opacity: 1;
-  transition: all .6s;
-  box-shadow: 0px 0px 8px 1px #fff;
-}
-
-/* line 34, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_locutores.scss */
-.locutores .locutor__img {
-  width: 120px;
-  padding-top: 1rem;
-}
-
-/* line 39, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_locutores.scss */
-.locutores .locutor__info {
-  display: flex;
-  align-items: center;
-  gap: .3rem;
-}
-
-/* line 45, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_locutores.scss */
-.locutores .locutor__ico {
-  color: #fff;
-}
-
-/* line 49, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_locutores.scss */
-.locutores .locutor__nome {
-  color: #fff;
-  font-size: 1.7rem;
-  font-family: "Athiti", sans-serif;
-}
-
-/* line 55, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_locutores.scss */
-.locutores .locutor__pro {
-  color: #fff;
-  font-family: "Athiti", sans-serif;
-  font-size: 1.2rem;
+/* line 29, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_locutores.scss */
+.locutores .locutores__card {
+  border: 2px solid #000;
+  padding: 0.4rem;
 }
 
 /*# sourceMappingURL=main.css.map */

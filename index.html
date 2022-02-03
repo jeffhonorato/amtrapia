@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Athiti:wght@300&family=Orbitron:wght@500&family=Teko:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./css/main.css">
     
     <title>Radio AmTrapia Web</title>
@@ -216,43 +216,42 @@
         </section>
 
         <section class="locutores">
+        
             <h2 class="locutores__titulo">Time AM Trápia</h2>
 
-            <div class="locutores__cards">
-                <div class="locutor__card">
-                    <img src="./img/locutores/locutor1.png" alt="" class="locutor__img">
-                    <div class="locutor__info">
-                        <ion-icon class="locutor__ico" name="mic-circle-outline"></ion-icon>
-                        <h3 class="locutor__nome">Márcio Costa</h3>
-                    </div>
-                    <div class="locutor__info">
-                        <ion-icon class="locutor__ico" name="play-circle-outline"></ion-icon>
-                        <p class="locutor__pro">Guardião das 7 Chaves</p>
-                    </div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./img/locutores/locutor1.png" alt="">    
+                        <h2>asdasdaws</h2>    
+                    </div>  
+                    <div class="swiper-slide">
+                        <img src="./img/locutores/locutor1.png" alt="">        
+                    </div>  
+                    <div class="swiper-slide">
+                        <img src="./img/locutores/locutor1.png" alt="">        
+                    </div> 
+                    <div class="swiper-slide">
+                        <img src="./img/locutores/locutor1.png" alt="">        
+                    </div> 
+                    <div class="swiper-slide">
+                        <img src="./img/locutores/locutor1.png" alt="">        
+                    </div>   
                 </div>
-
-                <div class="locutor__card">
-                    <img src="./img/locutores/locutor2.png" alt="" class="locutor__img">
-                    <div class="locutor__info">
-                        <ion-icon class="locutor__ico" name="mic-circle-outline"></ion-icon>
-                        <h3 class="locutor__nome">Barbara Holanda</h3>
-                    </div>
-                    <div class="locutor__info">
-                        <ion-icon class="locutor__ico" name="play-circle-outline"></ion-icon>
-                        <p class="locutor__pro">Manhã Musical</p>
-                    </div>
-                </div>
-
+                <div class="swiper-pagination"></div>
             </div>
+
+
+            
         </section>
     </main>
 
     
 
-    
-    <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./js/swiper.js"></script>
     <script src="./js/banner.js""></script>
 </body>
 </html>
