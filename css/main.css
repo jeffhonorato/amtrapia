@@ -287,9 +287,26 @@ a {
 }
 
 /* line 29, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_locutores.scss */
-.locutores .locutores__card {
-  border: 2px solid #000;
-  padding: 0.4rem;
+.locutores .locutor__info,
+.locutores .locutor__sobre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .4rem;
+}
+
+/* line 37, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_locutores.scss */
+.locutores .locutor__icone {
+  font-size: 2rem;
+  color: #fff;
+}
+
+/* line 42, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_locutores.scss */
+.locutores .locutor__nome,
+.locutores .locutor_programa {
+  font-family: "Athiti", sans-serif;
+  color: #fff;
+  font-size: 2rem;
 }
 
 /*# sourceMappingURL=main.css.map */
