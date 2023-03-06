@@ -2,6 +2,14 @@
     background-color: $cor-section1;
     padding-bottom: 4rem;
 
+        .prog__cabecalho {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+            align-items: center;
+        }
+
         .prog__titulo {
             font-family: $fonte-titulo;
             font-size: 5rem;
