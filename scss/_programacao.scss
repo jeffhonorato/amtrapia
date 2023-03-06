@@ -1,5 +1,5 @@
 .programacao {
-    background-color: $cor-section2;
+    background-color: $cor-section1;
     padding-bottom: 4rem;
 
         .prog__titulo {
@@ -20,12 +20,14 @@
             flex-wrap: wrap;
             gap: 5rem;
             justify-content: center;
+            align-items: center;
+            background-color: brown;
         }
 
         .prog__card {
-           
             text-align: center;
             width: 34.3rem;
+            margin: 0 auto;
         }
 
         .prog__card__titulo {
@@ -34,9 +36,8 @@
             color: #fff;
             box-shadow: 0 0 10px 0 #fff;
             cursor: pointer;
-            background-color: $cor-section1;
-            // margin-bottom: 2rem;
-            // border-radius: 5px;
+            background-color: $cor-section2;
+            width: 340px;
         }
 
         .tabela__prog {
@@ -61,13 +62,13 @@
             transition: all .5s;
         }
 
-        .tabela__prog__info{
+        .tabela__prog__info {
             border-bottom: solid 1px #000;
             border-collapse: collapse;
             font-family: $fonte-corpo;
             font-weight: bold;
             padding: .4rem;
-            font-size: 1.2rem;
+            font-size: 1rem;
         }
 
         
