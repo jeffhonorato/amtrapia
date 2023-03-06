@@ -303,10 +303,11 @@ a {
   /* line 5, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_programacao.scss */
   .programacao .prog__titulo {
     font-size: 3rem;
+    margin-bottom: 1rem;
   }
 }
 
-/* line 19, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_programacao.scss */
+/* line 20, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_programacao.scss */
 .programacao .prog__cards {
   display: flex;
   flex-wrap: wrap;
@@ -315,13 +316,13 @@ a {
   align-items: center;
 }
 
-/* line 27, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_programacao.scss */
+/* line 28, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_programacao.scss */
 .programacao .prog__card {
   text-align: center;
   width: 550px;
 }
 
-/* line 33, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_programacao.scss */
+/* line 34, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_programacao.scss */
 .programacao .prog__card__titulo {
   font-family: "Athiti", sans-serif;
   font-size: 3rem;
@@ -333,7 +334,7 @@ a {
   margin: 0 auto;
 }
 
-/* line 44, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_programacao.scss */
+/* line 45, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_programacao.scss */
 .programacao .tabela__prog {
   padding-top: 2rem;
   margin: 0 auto;
@@ -341,13 +342,13 @@ a {
 }
 
 @media (min-width: 0px) and (max-width: 420px) {
-  /* line 44, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_programacao.scss */
+  /* line 45, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_programacao.scss */
   .programacao .tabela__prog {
     width: 340px;
   }
 }
 
-/* line 54, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_programacao.scss */
+/* line 55, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_programacao.scss */
 .programacao .tabela__info__header {
   font-family: "Athiti", sans-serif;
   font-weight: bold;
@@ -355,19 +356,19 @@ a {
   color: #fff;
 }
 
-/* line 63, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_programacao.scss */
+/* line 64, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_programacao.scss */
 .programacao .tabela__prog__body:hover {
   background-color: #fff;
   transition: all .5s;
 }
 
-/* line 68, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_programacao.scss */
+/* line 69, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_programacao.scss */
 .programacao .tabela__prog__body:hover .tabela__prog__info {
   color: #000;
   transition: all .5s;
 }
 
-/* line 76, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_programacao.scss */
+/* line 77, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_programacao.scss */
 .programacao .tabela__prog__info {
   border-bottom: solid 1px #000;
   border-collapse: collapse;
