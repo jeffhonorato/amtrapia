@@ -1,20 +1,26 @@
 .radio__web {
-    background-color: $cor-section2;
+    background-color: $cor-section1;
 
         .radio__card {
-            // background-color: burlywood;
-            // height: 100vh;
             display: flex;
-            flex-direction: column;
             justify-content: center;
-            gap: 4rem;
             align-items: center;
+            gap: 4rem;
+           
+
+            @include celular {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                gap: 4rem;
+                align-items: center;
+            }
         }
 
-        .titulo {
+        .radio__titulo--h1 {
             font-family: $fonte-subtitulo;
             background-color: $cor-section1;
-            color: #000;
+            color: #fff;
             margin-bottom: 1.2rem;
             font-size: 2rem;
             box-shadow: 2px 2px 10px 2px #000;
