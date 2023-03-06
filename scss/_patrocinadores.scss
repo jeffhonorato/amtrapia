@@ -1,11 +1,11 @@
-.patrocinio {
+.patrocinio__banner {
     background-color: #fff;
     padding: 1rem;
-
-
-    @include celular {
-        height: 40vh;
-    }
+    height: 100vh;
+    
+        @include celular {
+            height: 50vh;
+        }
 
         .patrocinador__titulo {
             font-size: 5rem;
@@ -35,7 +35,19 @@
             opacity: 1;
         }
 
+        .patrocinadores__marcas {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 1rem;
 
+        }
+
+        .patrocinadores__marcas--img {
+            width: 60px;
+            height: auto;
+            
+            
+        }
 
 }
 
