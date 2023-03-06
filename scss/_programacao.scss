@@ -43,6 +43,10 @@
             padding-top: 2rem;
             margin: 0 auto;
             width: 34rem;
+
+            @include celular {
+                width: 340px;
+            }
         }
 
         .tabela__info__header {
