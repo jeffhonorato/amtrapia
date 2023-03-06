@@ -135,63 +135,53 @@ a {
   font-family: "Orbitron", sans-serif;
   background-color: #2D5D93;
   color: #fff;
-  margin-bottom: 1.2rem;
+  margin: 1rem 0;
   font-size: 2rem;
-  box-shadow: 2px 2px 10px 2px #000;
-  padding: .6rem;
-  border-radius: 5px;
+  font-weight: 200;
+  text-align: center;
 }
 
 @media (min-width: 0px) and (max-width: 420px) {
   /* line 20, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_radio-header.scss */
   .radio__web .radio__titulo--h1 {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 }
 
 /* line 34, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_radio-header.scss */
-.radio__web .radio__titulo--h1:hover {
-  box-shadow: 2px 2px 50px 1px #000;
-  transition: all .6s;
-}
-
-/* line 40, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_radio-header.scss */
 .radio__web .radio__controle {
   text-align: center;
 }
 
-/* line 44, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_radio-header.scss */
-.radio__web .radio__contato__info {
-  margin-top: 4rem;
-}
-
-/* line 48, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_radio-header.scss */
-.radio__web .radio__contato__aovivo {
-  font-family: "Athiti", sans-serif;
-  font-weight: bold;
-  font-size: 2rem;
-}
-
-/* line 54, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_radio-header.scss */
+/* line 38, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_radio-header.scss */
 .radio__web .radio__contato {
   display: flex;
-  gap: .2rem;
   justify-content: center;
+}
+
+/* line 43, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_radio-header.scss */
+.radio__web .radio__contato--link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .4rem;
   background-color: #29A71A;
   border-radius: 20px;
+  border: 1px solid #fff;
   padding: .4rem;
+  width: 200px;
+  cursor: pointer;
 }
 
-/* line 62, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_radio-header.scss */
-.radio__web .radio__contato:hover {
-  background-color: #2D5D93;
-  transition: all .6s;
-  box-shadow: 1px 1px 10px 2px #000;
+/* line 63, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_radio-header.scss */
+.radio__web .radio__contato--whatsapp {
+  width: 50px;
 }
 
-/* line 69, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_radio-header.scss */
-.radio__web .icone__whatsapp {
-  width: 3.1rem;
+/* line 67, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_radio-header.scss */
+.radio__web .radio__contato--p {
+  font-family: "Orbitron", sans-serif;
+  color: #fff;
 }
 
 /* line 73, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_radio-header.scss */

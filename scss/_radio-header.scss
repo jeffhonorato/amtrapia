@@ -21,53 +21,53 @@
             font-family: $fonte-subtitulo;
             background-color: $cor-section1;
             color: #fff;
-            margin-bottom: 1.2rem;
+            margin: 1rem 0;
             font-size: 2rem;
-            box-shadow: 2px 2px 10px 2px #000;
-            padding: .6rem;
-            border-radius: 5px;
+            font-weight: 200;
+            text-align: center;
 
             @include celular {
-                font-size: 1rem;
+                font-size: 1.2rem;
             }
-
-                &:hover {
-                    box-shadow: 2px 2px 50px 1px #000;
-                    transition: all .6s;
-                }
         }
 
         .radio__controle {
             text-align: center;
         }
 
-        .radio__contato__info {
-            margin-top: 4rem;
-        }
-
-        .radio__contato__aovivo {
-            font-family: $fonte-corpo;
-            font-weight: bold;
-            font-size: 2rem;
-        }
-
         .radio__contato {
             display: flex;
-            gap: .2rem;
             justify-content: center;
-            background-color: #29A71A;
-            border-radius: 20px;
-            padding: .4rem;
-
-                &:hover {
-                    background-color: $cor-section1;
-                    transition: all .6s;
-                    box-shadow: 1px 1px 10px 2px #000;
-                }
         }
 
-        .icone__whatsapp {
-            width: 3.1rem;
+        .radio__contato--link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: .4rem;
+            background-color: #29A71A;
+            border-radius: 20px;
+            border: 1px solid #fff;
+            padding: .4rem;
+            width: 200px;
+            cursor: pointer;
+
+            // &:hover {
+
+            // }
+
+
+
+        }
+
+        .radio__contato--whatsapp {
+            width: 50px;
+        }
+
+        .radio__contato--p {
+            font-family: $fonte-subtitulo;
+            color: #fff;
+
         }
 
         .radio__tel {
