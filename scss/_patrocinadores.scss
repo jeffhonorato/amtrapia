@@ -1,7 +1,21 @@
 .patrocinio {
-    background-color: $cor-section1;
+    background-color: #fff;
     padding: 1rem;
-    height: 100vh;
+
+
+    @include celular {
+        height: 40vh;
+    }
+
+        .patrocinador__titulo {
+            font-size: 5rem;
+            font-family: $fonte-titulo;
+            text-align: center;
+
+            @include celular {
+                font-size: 3rem;
+            }
+        }
 
         .patrocinio__banner {
             position: relative;
@@ -20,5 +34,8 @@
         .selected {
             opacity: 1;
         }
+
+
+
 }
 

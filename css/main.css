@@ -207,18 +207,38 @@ a {
 
 /* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_patrocinadores.scss */
 .patrocinio {
-  background-color: #2D5D93;
+  background-color: #fff;
   padding: 1rem;
-  height: 100vh;
 }
 
-/* line 6, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_patrocinadores.scss */
+@media (min-width: 0px) and (max-width: 420px) {
+  /* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_patrocinadores.scss */
+  .patrocinio {
+    height: 40vh;
+  }
+}
+
+/* line 10, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_patrocinadores.scss */
+.patrocinio .patrocinador__titulo {
+  font-size: 5rem;
+  font-family: "Teko", sans-serif;
+  text-align: center;
+}
+
+@media (min-width: 0px) and (max-width: 420px) {
+  /* line 10, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_patrocinadores.scss */
+  .patrocinio .patrocinador__titulo {
+    font-size: 3rem;
+  }
+}
+
+/* line 20, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_patrocinadores.scss */
 .patrocinio .patrocinio__banner {
   position: relative;
   height: 90vh;
 }
 
-/* line 13, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_patrocinadores.scss */
+/* line 27, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_patrocinadores.scss */
 .patrocinio .banner__img {
   position: absolute;
   box-shadow: 0 0 10px 0px #fff;
@@ -226,7 +246,7 @@ a {
   transition: opacity 900ms;
 }
 
-/* line 20, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_patrocinadores.scss */
+/* line 34, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_patrocinadores.scss */
 .patrocinio .selected {
   opacity: 1;
 }
