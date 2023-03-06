@@ -31,9 +31,12 @@
         }
 
         .nav__itens {
-            display: flex;
+            display: none;
             flex-direction: column;
+        }
 
+        .nav__itens.ativo {
+            display: flex;
         }
 
         .nav__link {

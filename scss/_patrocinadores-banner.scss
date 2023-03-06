@@ -1,11 +1,11 @@
 .patrocinio__banner {
     background-color: #fff;
-    padding: 1rem;
-    height: 100vh;
+    margin: .5rem auto;
+    // height: 100vh;
     
-        @include celular {
-            height: 50vh;
-        }
+        // @include celular {
+        //     height: 50vh;
+        // }
 
         .patrocinador__titulo {
             font-size: 5rem;
@@ -23,7 +23,7 @@
             
             
             @include celular {
-                height: 30vh;
+                height: 25vh;
             }
 
         }

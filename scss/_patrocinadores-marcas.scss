@@ -1,17 +1,21 @@
 .patrocinadores {
-    background-color: coral;
+    padding-bottom: 2rem;
 }
 
 .patrocinadores__marcas {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 1rem;
+    justify-content: center;
+    gap: .5rem;
+
 
 }
 
 .patrocinadores__marcas--img {
-    width: 60px;
-    height: auto;
-    
-    
+    width: 75px;
+
+    @include celular {
+        width: 65px;
+        height: 50px;
+    }
 }
