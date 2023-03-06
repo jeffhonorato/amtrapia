@@ -1,6 +1,11 @@
 .radio__web {
     background-color: $cor-section1;
 
+    @include celular {
+        padding-bottom: 2rem;
+    }
+  
+
         .radio__card {
             display: flex;
             justify-content: center;
@@ -48,13 +53,14 @@
             background-color: #29A71A;
             border-radius: 20px;
             border: 1px solid #fff;
-            padding: .4rem;
             width: 200px;
             cursor: pointer;
+            padding: .2rem 0;
 
-            // &:hover {
-
-            // }
+            &:hover {
+                background-color: $cor-section1;
+                transition: all .5s;
+            }
 
 
 
