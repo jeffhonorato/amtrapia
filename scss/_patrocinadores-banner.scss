@@ -20,7 +20,11 @@
         .patrocinio__banner {
             position: relative;
             height: 90vh;
-            // width: 90vw;
+            
+            
+            @include celular {
+                height: 30vh;
+            }
 
         }
 
@@ -34,20 +38,5 @@
         .selected {
             opacity: 1;
         }
-
-        .patrocinadores__marcas {
-            display: flex;
-            flex-wrap: wrap;
-            margin: 0 1rem;
-
-        }
-
-        .patrocinadores__marcas--img {
-            width: 60px;
-            height: auto;
-            
-            
-        }
-
 }
 

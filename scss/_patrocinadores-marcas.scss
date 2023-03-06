@@ -1,0 +1,17 @@
+.patrocinadores {
+    background-color: coral;
+}
+
+.patrocinadores__marcas {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 1rem;
+
+}
+
+.patrocinadores__marcas--img {
+    width: 60px;
+    height: auto;
+    
+    
+}
