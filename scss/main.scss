@@ -30,6 +30,18 @@ a {
     text-decoration: none;
 }
 
+@mixin celular {
+    @media (min-width: 0px) and (max-width: 420px){
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (min-width: 420px) and (max-width: 800px){
+        @content;
+    }
+}
+
 /************ CONTEÚDO DA PÁGINA ************/
 @import "header";
 @import "radio-header";

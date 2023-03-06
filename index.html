@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Athiti:wght@300&family=Orbitron:wght@500&family=Teko:wght@300;600&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./css/main.css">
     
@@ -19,10 +20,17 @@
         </picture>
 
         <nav class="nav">
+
+            <img src="img/menu-mobile.png" alt="menu logo" class="menu__mobile">
+
             <ul class="nav__itens">
-                <a href="" class="nav__link">
+                <a href="#" class="nav__link">
                     <ion-icon class="nav__icone" name="home-outline"></ion-icon>
                     <li class="nav__item">Início</li>
+                </a>
+                <a href="#radio" class="nav__link">
+                    <ion-icon class="nav__icone" name="reader-outline"></ion-icon>
+                    <li class="nav__item">RadioWeb</li>
                 </a>
                 <a href="#programacao" class="nav__link">
                     <ion-icon class="nav__icone" name="reader-outline"></ion-icon>
@@ -42,32 +50,29 @@
 
     <main>
         <article class="radio__web">
+
             <div class="radio__card">
                 
                 <div class="radio__image">
-                    <img src="./img/radioweb-image.png" alt="">
+                    
+                    <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_Xl3t5GpuaK.json"  background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay>
+                    </lottie-player>
+                    
                 </div>
 
                 <div class="radio__bloco">
+
+                    <div class="radio__controle">
+                        <audio controls>
+                        </audio>                
+                        
+                    </div>
+                    
                     <div class="radio_titulo">
                         <h1 class="titulo"><strong>Radio AM Trapia 1510mhz</strong></h1>  
                     </div>
     
-                    <div class="radio__controle">
-                        <audio controls>
-                        </audio>
-
-
-                        <div class="radio__contato__info">
-                            <p class="radio__contato__aovivo">Fale Conosco - Participe Ao Vivo</p>
-                            <a href="" class="radio__contato">
-                                <img src="./img/whatsapp.png" alt="" class="icone__whatsapp">
-                                <p class="radio__tel">(88) 9 9900-8899</p>
-                            </a>
-                        </div>
-                        
-                        
-                    </div>
+                   
                 </div>
             </div>
         </article>
