@@ -3,15 +3,16 @@
     padding-bottom: 4rem;
 
         .prog__titulo {
-            font-family: $fonte-subtitulo;
-            font-size: 3rem;
+            font-family: $fonte-titulo;
+            font-size: 5rem;
             text-align: center;
             font-weight: bold;
             margin-bottom: 4rem;
             padding: 2rem;
+            color: #fff;
 
                 @include celular {
-                    font-size: 2rem;
+                    font-size: 3rem;
                 }
         }
 
@@ -21,13 +22,12 @@
             gap: 5rem;
             justify-content: center;
             align-items: center;
-            background-color: brown;
         }
 
         .prog__card {
             text-align: center;
-            width: 34.3rem;
-            margin: 0 auto;
+            width: 550px;
+            
         }
 
         .prog__card__titulo {
@@ -38,6 +38,7 @@
             cursor: pointer;
             background-color: $cor-section2;
             width: 340px;
+            margin: 0 auto;
         }
 
         .tabela__prog {
@@ -57,10 +58,20 @@
             color: #fff;
         }
 
-        .tabela__prog__body:hover {
-            background-color: #fff;
-            transition: all .5s;
+        .tabela__prog__body {
+
+            &:hover {
+                background-color: #fff;
+                transition: all .5s;
+            }
+
+            &:hover .tabela__prog__info {
+                color: #000;
+                transition: all .5s;
+            }
         }
+
+       
 
         .tabela__prog__info {
             border-bottom: solid 1px #000;
@@ -69,6 +80,7 @@
             font-weight: bold;
             padding: .4rem;
             font-size: 1rem;
+            color: #fff;
         }
 
         
