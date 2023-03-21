@@ -23,6 +23,22 @@
             position: fixed;
             z-index: 2;
 
+            @include celular {
+                position: fixed;
+                background-color: transparent;
+            }
+        }
+
+        .img__mobile {
+            width: 50px;
+            position: fixed;
+            top: 10px;
+            left: 5px;
+            display: none;
+
+            @include celular {
+                display: block;
+            }
         }
 
         .nav__itens {
@@ -32,6 +48,21 @@
            gap: .5rem;
            padding-top: .5rem;
 
+            @include celular {
+                display: none;
+            }
+        }
+
+        .nav__itens.ativo {
+
+            @include celular {
+                display: grid;
+                place-content: center;
+                background-color: #000;
+                height: 100vh;
+                animation: slidein .5s normal;
+                
+            }
         }
 
         .nav__link {
@@ -53,7 +84,6 @@
         .nav__icone {
             font-size: 1.1rem;
             color: #fff;
-
         }
 
         .nav__item {
@@ -62,4 +92,13 @@
             color: #fff;
         }
 
+        @keyframes slidein {
+            from {
+              opacity: 0;
+            }
+          
+            to {
+              opacity: 1;
+            }
+          }
 }
