@@ -1,5 +1,6 @@
 .programacao {
-    background-color: $cor-section1;
+    background: rgb(45,93,147);
+    background: linear-gradient(0deg, rgba(45,93,147,1) 0%, rgba(116,179,206,1) 100%);
     padding-bottom: 4rem;
 
         .prog__cabecalho {
@@ -28,7 +29,6 @@
         .prog__cards--container {
            display: grid;
            place-content: center;
-           background-color: coral;
         }
 
         .prog__cards {
@@ -41,7 +41,6 @@
             text-align: center;
             width: 550px;
             background-color: $cor-section2;
-            
         }
 
         .prog__card__titulo {
