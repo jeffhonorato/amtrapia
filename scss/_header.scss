@@ -5,6 +5,12 @@
         display: flex;
         justify-content: center;
 
+        @include tablet {
+            display: flex;
+            justify-content: center;
+            background-color: chartreuse;
+        }
+
         .logo__img {
             width: 500px;
             padding: 0 .5rem;
@@ -13,11 +19,15 @@
                 width: 320px;
             }
 
+            @include tablet {
+                width: 400px;
+            }
+
+
         }
     }
 
         .nav {
-            background-color: #000;
             height: 10vh;
             width: 100%;
             position: fixed;
@@ -25,7 +35,10 @@
 
             @include celular {
                 position: fixed;
-                background-color: transparent;
+            }
+
+            @include tablet {
+                position: fixed;  
             }
         }
 
@@ -34,9 +47,14 @@
             position: fixed;
             top: 10px;
             left: 5px;
-            display: none;
+            display: block;
+            cursor: pointer;
 
             @include celular {
+                display: block;
+            }
+
+            @include tablet {
                 display: block;
             }
         }
@@ -47,13 +65,24 @@
            align-items: center;
            gap: .5rem;
            padding-top: .5rem;
+           display: none;
 
             @include celular {
+                display: none;
+            }
+
+            @include tablet {
                 display: none;
             }
         }
 
         .nav__itens.ativo {
+            display: grid;
+            place-content: center;
+            background: rgb(45,93,147);
+            background: linear-gradient(0deg, rgba(45,93,147,1) 0%, rgba(116,179,206,1) 100%);
+            height: 100vh;
+            animation: slidein .4s normal;
 
             @include celular {
                 display: grid;
@@ -63,6 +92,15 @@
                 height: 100vh;
                 animation: slidein .4s normal;
                 
+            }
+
+            @include tablet {
+                display: grid;
+                place-content: center;
+                background: rgb(45,93,147);
+                background: linear-gradient(0deg, rgba(45,93,147,1) 0%, rgba(116,179,206,1) 100%);
+                height: 130vh;
+                animation: slidein .4s normal;
             }
         }
 
