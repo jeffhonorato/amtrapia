@@ -108,13 +108,14 @@ a {
   .header .nav__itens.ativo {
     display: grid;
     place-content: center;
-    background-color: #000;
+    background: #2d5d93;
+    background: linear-gradient(0deg, #2d5d93 0%, #74b3ce 100%);
     height: 100vh;
-    animation: slidein .5s normal;
+    animation: slidein .4s normal;
   }
 }
 
-/* line 68, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_header.scss */
+/* line 69, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_header.scss */
 .header .nav__link {
   background-color: #2D5D93;
   padding: .2rem .8rem;
@@ -125,20 +126,20 @@ a {
   gap: 0.4rem;
 }
 
-/* line 77, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_header.scss */
+/* line 78, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_header.scss */
 .header .nav__link:hover {
   background-color: #74B3CE;
   transition: all .6s;
   box-shadow: 4px 6px 8px #000;
 }
 
-/* line 84, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_header.scss */
+/* line 85, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_header.scss */
 .header .nav__icone {
   font-size: 1.1rem;
   color: #fff;
 }
 
-/* line 89, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_header.scss */
+/* line 90, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_header.scss */
 .header .nav__item {
   font-family: "Teko", sans-serif;
   font-size: 1.6rem;
@@ -148,9 +149,11 @@ a {
 @keyframes slidein {
   from {
     opacity: 0;
+    margin-left: 0%;
   }
   to {
     opacity: 1;
+    margin-left: 50%;
   }
 }
 
