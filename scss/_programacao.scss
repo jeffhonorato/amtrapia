@@ -38,12 +38,17 @@
         }
 
         .prog__card {
+            position: relative;
             text-align: center;
             width: 550px;
             background: rgb(0,0,0);
             background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(116,179,206,1) 100%);
             border-radius: 10px;
             box-shadow: 1px 1px 10px 1px #fff;
+        }
+
+        .player__radio {
+            position: absolute;
         }
 
         .prog__card--titulo {
