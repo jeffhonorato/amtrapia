@@ -49,8 +49,6 @@
             <img src="./img/logo.png" alt="" class="logo__img">
         </picture>
 
-     
-
     </header>
 
     <main>
@@ -145,71 +143,86 @@
                 <h2 class="prog__titulo">Confira nossa <br>programação</h2>
             </div>
 
-            <div class="prog__cards">
+            <div class="prog__cards--container">
 
-                <details open class="prog__card segunda">
-                    <summary class="prog__card__titulo">Segunda</summary>
+                <div class="swiper swiper-programacao">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide prog__cards">
+                            <div class="prog__card segunda">
+                                
+                                <h2>SEGUNDA</h2>
+            
+                                <table class="tabela__prog">
+                                    <thead class="tabela__prog__cabecalho">
+                                        <tr class="tabela__prog__header">
+                                            <div class="tabela__flex">
+                                                <th class="tabela__info__header">
+                                                    <ion-icon name="alarm-outline"></ion-icon>
+                                                    Horário
+                                                </th>
+                                            </div>
+                                            <div class="tabela__flex">
+                                                <th class="tabela__info__header">
+                                                    <ion-icon name="musical-notes-outline"></ion-icon>
+                                                    Programa
+                                                </th>
+                                            </div>
+                                            <div class="tabela__flex">
+                                                <th class="tabela__info__header">
+                                                    <ion-icon name="mic-outline"></ion-icon>
+                                                    Locução
+                                                </th>
+                                            </div>
+                                        </tr>
+                                    </thead>
+            
+                                    <tbody class="tabela__prog__corpo">
+                                        <tr class="tabela__prog__body">
+                                            <td class="tabela__prog__info">06:00 as 06:30</td>
+                                            <td class="tabela__prog__info">Guardião das 7 Chaves</td>
+                                            <td class="tabela__prog__info">Radio Web</td>
+                                        </tr>
+            
+                                        <tr class="tabela__prog__body">
+                                            <td class="tabela__prog__info">06:30 as 08:30</td>
+                                            <td class="tabela__prog__info">Bom Dia Sertão</td>
+                                            <td class="tabela__prog__info">Tony Oliveira</td>
+                                        </tr>
+            
+                                        <tr class="tabela__prog__body">
+                                            <td class="tabela__prog__info">08:30 as 11:30</td>
+                                            <td class="tabela__prog__info">Manhã 1510</td>
+                                            <td class="tabela__prog__info">Edson Alencar</td>
+                                        </tr>
+            
+                                        <tr class="tabela__prog__body">
+                                            <td class="tabela__prog__info">11:30 as 12:00</td>
+                                            <td class="tabela__prog__info">A Vez do Sindicado</td>
+                                            <td class="tabela__prog__info">Equipe STTR</td>
+                                        </tr>
+            
+                                        <tr class="tabela__prog__body">
+                                            <td class="tabela__prog__info">12:00 as 14:30</td>
+                                            <td class="tabela__prog__info">Tribuna do Povo</td>
+                                            <td class="tabela__prog__info">Souza Neto</td>
+                                        </tr>
 
-                    <table class="tabela__prog">
-                        <thead class="tabela__prog__cabecalho">
-                            <tr class="tabela__prog__header">
-                                <div class="tabela__flex">
-                                    <th class="tabela__info__header">
-                                        <ion-icon name="alarm-outline"></ion-icon>
-                                        Horário
-                                    </th>
-                                </div>
-                                <div class="tabela__flex">
-                                    <th class="tabela__info__header">
-                                        <ion-icon name="musical-notes-outline"></ion-icon>
-                                        Programa
-                                    </th>
-                                </div>
-                                <div class="tabela__flex">
-                                    <th class="tabela__info__header">
-                                        <ion-icon name="mic-outline"></ion-icon>
-                                        Locução
-                                    </th>
-                                </div>
-                            </tr>
-                        </thead>
+                                        <tr class="tabela__prog__body">
+                                            <td class="tabela__prog__info">14:30 as 16:00</td>
+                                            <td class="tabela__prog__info">Tribuna do Povo</td>
+                                            <td class="tabela__prog__info">Souza Neto</td>
+                                        </tr>
+            
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-                        <tbody class="tabela__prog__corpo">
-                            <tr class="tabela__prog__body">
-                                <td class="tabela__prog__info">06:00 as 06:30</td>
-                                <td class="tabela__prog__info">Guardião das 7 Chaves</td>
-                                <td class="tabela__prog__info">Radio Web</td>
-                            </tr>
+               
 
-                            <tr class="tabela__prog__body">
-                                <td class="tabela__prog__info">06:30 as 08:30</td>
-                                <td class="tabela__prog__info">Bom Dia Sertão</td>
-                                <td class="tabela__prog__info">Tony Oliveira</td>
-                            </tr>
-
-                            <tr class="tabela__prog__body">
-                                <td class="tabela__prog__info">08:30 as 11:30</td>
-                                <td class="tabela__prog__info">Manhã 1510</td>
-                                <td class="tabela__prog__info">Edson Alencar</td>
-                            </tr>
-
-                            <tr class="tabela__prog__body">
-                                <td class="tabela__prog__info">11:30 as 12:00</td>
-                                <td class="tabela__prog__info">A Vez do Sindicado</td>
-                                <td class="tabela__prog__info">Equipe STTR</td>
-                            </tr>
-
-                            <tr class="tabela__prog__body">
-                                <td class="tabela__prog__info">12:00 as 14:30</td>
-                                <td class="tabela__prog__info">Tribuna do Povo</td>
-                                <td class="tabela__prog__info">Souza Neto</td>
-                            </tr>
-
-                        </tbody>
-                    </table>
-                </details>
-
-                <details class="prog__card terca">
+                <!-- <details class="prog__card terca">
                     <summary class="prog__card__titulo">Terça</summary>
 
                     <table class="tabela__prog">
@@ -269,9 +282,9 @@
 
                         </tbody>
                     </table>
-                </details>
+                </details> -->
 
-                <details class="prog__card quarta">
+                <!-- <details class="prog__card quarta">
                     <summary class="prog__card__titulo">Quarta</summary>
 
                     <table class="tabela__prog">
@@ -331,9 +344,9 @@
 
                         </tbody>
                     </table>
-                </details>
+                </details> -->
 
-                <details class="prog__card quinta">
+                <!-- <details class="prog__card quinta">
                     <summary class="prog__card__titulo">Quinta</summary>
 
                     <table class="tabela__prog">
@@ -393,9 +406,9 @@
 
                         </tbody>
                     </table>
-                </details>
+                </details> -->
 
-                <details class="prog__card quinta">
+                <!-- <details class="prog__card quinta">
                     <summary class="prog__card__titulo">Sexta</summary>
 
                     <table class="tabela__prog">
@@ -455,7 +468,7 @@
 
                         </tbody>
                     </table>
-                </details>
+                </details> -->
 
             </div>
         </section>
@@ -538,6 +551,7 @@
 
             
         </section>
+        
     </main>
 
     
@@ -548,5 +562,6 @@
     <script src="./js/swiper.js"></script>
     <script src="./js/banner.js"></script>
     <script src="./js/menu-mobile.js"></script>
+    <script src="./js/swiper-programacao.js"></script>
 </body>
 </html>
