@@ -72,7 +72,6 @@ a {
 
 /* line 30, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_header.scss */
 .header .nav {
-  height: 10vh;
   width: 100%;
   position: fixed;
   z-index: 2;
@@ -92,7 +91,7 @@ a {
   }
 }
 
-/* line 45, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_header.scss */
+/* line 44, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_header.scss */
 .header .img__mobile {
   width: 50px;
   position: fixed;
@@ -103,20 +102,20 @@ a {
 }
 
 @media (min-width: 0px) and (max-width: 420px) {
-  /* line 45, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_header.scss */
+  /* line 44, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_header.scss */
   .header .img__mobile {
     display: block;
   }
 }
 
 @media (min-width: 420px) and (max-width: 800px) {
-  /* line 45, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_header.scss */
+  /* line 44, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_header.scss */
   .header .img__mobile {
     display: block;
   }
 }
 
-/* line 62, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_header.scss */
+/* line 61, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_header.scss */
 .header .nav__itens {
   display: flex;
   justify-content: center;
@@ -127,20 +126,20 @@ a {
 }
 
 @media (min-width: 0px) and (max-width: 420px) {
-  /* line 62, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_header.scss */
+  /* line 61, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_header.scss */
   .header .nav__itens {
     display: none;
   }
 }
 
 @media (min-width: 420px) and (max-width: 800px) {
-  /* line 62, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_header.scss */
+  /* line 61, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_header.scss */
   .header .nav__itens {
     display: none;
   }
 }
 
-/* line 79, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_header.scss */
+/* line 78, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_header.scss */
 .header .nav__itens.ativo {
   display: grid;
   place-content: center;
@@ -151,7 +150,7 @@ a {
 }
 
 @media (min-width: 0px) and (max-width: 420px) {
-  /* line 79, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_header.scss */
+  /* line 78, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_header.scss */
   .header .nav__itens.ativo {
     display: grid;
     place-content: center;
@@ -163,7 +162,7 @@ a {
 }
 
 @media (min-width: 420px) and (max-width: 800px) {
-  /* line 79, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_header.scss */
+  /* line 78, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_header.scss */
   .header .nav__itens.ativo {
     display: grid;
     place-content: center;
@@ -174,7 +173,7 @@ a {
   }
 }
 
-/* line 107, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_header.scss */
+/* line 106, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_header.scss */
 .header .nav__link {
   background-color: #2D5D93;
   padding: .2rem .8rem;
@@ -185,20 +184,20 @@ a {
   gap: 0.4rem;
 }
 
-/* line 116, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_header.scss */
+/* line 115, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_header.scss */
 .header .nav__link:hover {
   background-color: #74B3CE;
   transition: all .6s;
   box-shadow: 4px 6px 8px #000;
 }
 
-/* line 123, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_header.scss */
+/* line 122, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_header.scss */
 .header .nav__icone {
   font-size: 1.1rem;
   color: #fff;
 }
 
-/* line 128, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_header.scss */
+/* line 127, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_header.scss */
 .header .nav__item {
   font-family: "Teko", sans-serif;
   font-size: 1.6rem;
