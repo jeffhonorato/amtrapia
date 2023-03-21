@@ -1,6 +1,7 @@
 const menuMobile = document.querySelector(".js-menu-mobile");
-const navItens = document.querySelector(".js-menu-itens");
+
 const menuLinks = document.querySelectorAll(".js-menu-link");
+
 
 console.log(menuLinks);
 
@@ -14,6 +15,11 @@ console.log(menuLinks);
                 navItens.classList.remove("ativo");
             }
         })
+    })
+
+    const navItens = document.querySelector(".js-menu-itens");
+    navItens.addEventListener("click", () => {
+        navItens.classList.remove("ativo")
     })
 
    
