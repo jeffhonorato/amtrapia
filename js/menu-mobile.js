@@ -10,7 +10,7 @@ console.log(menuLinks);
 
     menuLinks.forEach((link) => {   
         link.addEventListener("click", () => {
-            if(link.id == "menu-inicio" || link.id == "menu-radioweb" || link.id == "menu-programacao") {
+            if(link.id == "menu-inicio" || link.id == "menu-radioweb" || link.id == "menu-programacao" || link.id == "menu-locutores" || link.id == "menu-contato") {
                 navItens.classList.remove("ativo");
             }
         })
