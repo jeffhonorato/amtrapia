@@ -438,17 +438,17 @@ a {
 .programacao .prog__card {
   text-align: center;
   width: 550px;
-  background-color: #74B3CE;
+  background: black;
+  background: linear-gradient(0deg, black 0%, #74b3ce 100%);
+  border-radius: 10px;
 }
 
-/* line 46, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_programacao.scss */
-.programacao .prog__card__titulo {
-  font-family: "Athiti", sans-serif;
+/* line 48, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_programacao.scss */
+.programacao .prog__card--titulo {
+  font-family: "Teko", sans-serif;
   font-size: 3rem;
   color: #fff;
-  box-shadow: 0 0 10px 0 #fff;
   cursor: pointer;
-  background-color: #74B3CE;
   width: 340px;
   margin: 0 auto;
 }

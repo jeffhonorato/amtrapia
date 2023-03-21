@@ -40,16 +40,16 @@
         .prog__card {
             text-align: center;
             width: 550px;
-            background-color: $cor-section2;
+            background: rgb(0,0,0);
+            background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(116,179,206,1) 100%);
+            border-radius: 10px;
         }
 
-        .prog__card__titulo {
-            font-family: $fonte-corpo;
+        .prog__card--titulo {
+            font-family: $fonte-titulo;
             font-size: 3rem;
             color: #fff;
-            box-shadow: 0 0 10px 0 #fff;
             cursor: pointer;
-            background-color: $cor-section2;
             width: 340px;
             margin: 0 auto;
         }
