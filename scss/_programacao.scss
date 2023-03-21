@@ -53,11 +53,15 @@
 
         .prog__card--titulo {
             font-family: $fonte-titulo;
-            font-size: 3rem;
-            color: #fff;
+            font-size: 4.2rem;
+            color: #000;
             cursor: pointer;
             width: 340px;
             margin: 0 auto;
+
+            @include celular {
+                font-size: 3.3rem;
+            }
         }
 
         .tabela__prog {
