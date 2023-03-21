@@ -54,33 +54,25 @@ a {
   }
 }
 
-/* line 20, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_header.scss */
+/* line 19, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_header.scss */
 .header .nav {
+  background-color: #000;
+  height: 10vh;
+  width: 100%;
   position: fixed;
-  top: 20px;
-  left: 8px;
-  z-index: 1;
+  z-index: 2;
 }
 
-/* line 27, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_header.scss */
-.header .menu__mobile {
-  width: 50px;
-  margin-bottom: .5rem;
-  cursor: pointer;
-}
-
-/* line 33, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_header.scss */
+/* line 28, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_header.scss */
 .header .nav__itens {
-  display: none;
-  flex-direction: column;
-}
-
-/* line 38, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_header.scss */
-.header .nav__itens.ativo {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  padding-top: .5rem;
 }
 
-/* line 42, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_header.scss */
+/* line 37, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_header.scss */
 .header .nav__link {
   background-color: #2D5D93;
   padding: .2rem .8rem;
@@ -91,20 +83,20 @@ a {
   gap: 0.4rem;
 }
 
-/* line 51, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_header.scss */
+/* line 46, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_header.scss */
 .header .nav__link:hover {
   background-color: #74B3CE;
   transition: all .6s;
   box-shadow: 4px 6px 8px #000;
 }
 
-/* line 58, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_header.scss */
+/* line 53, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_header.scss */
 .header .nav__icone {
   font-size: 1.1rem;
   color: #fff;
 }
 
-/* line 64, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_header.scss */
+/* line 59, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_header.scss */
 .header .nav__item {
   font-family: "Teko", sans-serif;
   font-size: 1.6rem;

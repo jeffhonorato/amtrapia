@@ -15,28 +15,23 @@
 
         }
     }
-        
 
         .nav {
+            background-color: #000;
+            height: 10vh;
+            width: 100%;
             position: fixed;
-            top: 20px;
-            left: 8px;
-            z-index: 1;
-        }
+            z-index: 2;
 
-        .menu__mobile {
-            width: 50px;
-            margin-bottom: .5rem;
-            cursor: pointer;
         }
 
         .nav__itens {
-            display: none;
-            flex-direction: column;
-        }
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           gap: .5rem;
+           padding-top: .5rem;
 
-        .nav__itens.ativo {
-            display: flex;
         }
 
         .nav__link {
