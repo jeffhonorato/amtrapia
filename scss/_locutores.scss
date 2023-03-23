@@ -71,17 +71,17 @@
         }
 
         .locutor__link--info {
-            display: none;
             position: relative;
-
-        }
-
-        .locutor__link--info.ativo {
-            display: block;
+        
         }
 
         .saibaMais__p {
+            display: block;
             position: absolute;
+            font-family: $fonte-corpo;
+            width: 220px;
+            height: 210px;
+            padding: .4rem;
         }
 
         .locutores__media {

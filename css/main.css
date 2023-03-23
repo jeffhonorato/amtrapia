@@ -619,18 +619,17 @@ a {
 
 /* line 73, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_locutores.scss */
 .locutores .locutor__link--info {
-  display: none;
   position: relative;
 }
 
-/* line 79, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_locutores.scss */
-.locutores .locutor__link--info.ativo {
-  display: block;
-}
-
-/* line 83, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_locutores.scss */
+/* line 78, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_locutores.scss */
 .locutores .saibaMais__p {
+  display: block;
   position: absolute;
+  font-family: "Athiti", sans-serif;
+  width: 220px;
+  height: 210px;
+  padding: .4rem;
 }
 
 /* line 87, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_locutores.scss */
