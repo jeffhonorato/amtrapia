@@ -15,10 +15,14 @@
 
         .locutores__titulo {
             font-family: $fonte-titulo;
-            font-size: 3rem;
+            font-size: 4rem;
             color: #000;
             text-align: center;
             padding: 2rem 0;
+        }
+
+        .locutor__img {
+            width: 100px;
         }
 
         .locutor__info, 
