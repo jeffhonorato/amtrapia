@@ -59,6 +59,29 @@
             font-family: $fonte-corpo;
             color: #fff;
             font-size: 1.3rem;
+            
+        }
+
+        .locutor__link--saibaMais {
+            font-family: $fonte-corpo;
+            color: #fff;
+            font-size: 1.3rem;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        .locutor__link--info {
+            display: none;
+            position: relative;
+
+        }
+
+        .locutor__link--info.ativo {
+            display: block;
+        }
+
+        .saibaMais__p {
+            position: absolute;
         }
 
         .locutores__media {
@@ -71,6 +94,7 @@
 
         .locutores__media--link {
             width: 30px;
+            cursor: pointer;
         }
 
         

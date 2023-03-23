@@ -11,9 +11,9 @@ var swiper = new Swiper(".swiper-programacao", {
       modifier: 2.5,
       slideShadows: false,
     },
-    pagination: {
-      el: ".swiper-pagination",
-    },
+    // pagination: {
+    //   el: ".swiper-pagination",
+    // },
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",

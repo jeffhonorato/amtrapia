@@ -608,7 +608,32 @@ a {
   font-size: 1.3rem;
 }
 
-/* line 64, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_locutores.scss */
+/* line 65, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_locutores.scss */
+.locutores .locutor__link--saibaMais {
+  font-family: "Athiti", sans-serif;
+  color: #fff;
+  font-size: 1.3rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* line 73, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_locutores.scss */
+.locutores .locutor__link--info {
+  display: none;
+  position: relative;
+}
+
+/* line 79, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_locutores.scss */
+.locutores .locutor__link--info.ativo {
+  display: block;
+}
+
+/* line 83, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_locutores.scss */
+.locutores .saibaMais__p {
+  position: absolute;
+}
+
+/* line 87, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_locutores.scss */
 .locutores .locutores__media {
   display: flex;
   justify-content: center;
@@ -617,9 +642,10 @@ a {
   margin-top: 1rem;
 }
 
-/* line 72, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_locutores.scss */
+/* line 95, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/amtrapia/scss/_locutores.scss */
 .locutores .locutores__media--link {
   width: 30px;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=main.css.map */
